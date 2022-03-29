@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    list-style: none;
+    
+}
+header {
+    position: fixed;
+}
+header div {
+    float: right;
+    display: inline-flex;
+    position: absolute;
+    height: 80px;
+    background-color: gray;
+    
+ }
+#Logo-NETW {
+    margin-left: 25px;
+    padding: 5px;
+    padding-top: 25px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgba(1,1,1);
+    border-radius: 5px;
+    border-top-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: gray;    
+}
+.botonera {
+    text-align: center;
+    font-size: 130%;
+    /* background-color: azure; */
+}
+#inicio {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#educacion {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#exp-laboral {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#trabajos {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#conocimientos {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#contacto {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
