@@ -4,15 +4,17 @@
     
 }
 header {
-    position: fixed;
+    position: sticky; /* Fija el bloque en la pantalla, al ser alcanzado por el desplazamiento. */
+    top: 0; /* Da el valor inicial para que Sticky comienze su funcionamiento. */
+    background-color: #a79c9c;
+    height: 100px;
 }
 header div {
-    float: right;
+    float: inline-end;
     display: inline-flex;
-    position: absolute;
+    position: sticky;
     height: 80px;
-    background-color: gray;
-    
+      
  }
 #Logo-NETW {
     margin-left: 25px;
@@ -21,92 +23,108 @@ header div {
     height: 100px;
     border-style: solid;
     border-color: rgba(1,1,1);
+    border-radius: 25px;
+    border-top-style: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #b8b7b7;    
+}
+#Logo-NETW:hover {
+    background-color: hsl(187, 80%, 84%);
+}
+.botonera {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-align: center;
+    font-size: 130%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
     border-radius: 5px;
     border-top-style: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    background-color: gray;    
+    background-color: #b8b7b7;
 }
-.botonera {
+.botonera:visited {
+    color: black;
+}
+.botonera:hover {
+    color: blue;
+    background-color: hsl(187, 80%, 84%);
+}
+.botonera:active {
+    color: #4b4a4a;
+}
+body {
+    background-color: rgb(237, 249, 250);
+}
+#Datos {
+    background-image: url('/Imagenes/Rumbo_CostaRica0005.JPG');
+    background-position: 0 ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
     text-align: center;
-    font-size: 130%;
-    /* background-color: azure; */
+    font-size: 200%;
+     
 }
-#inicio {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.datos-principales {
+    font-family: 'Cinzel', serif;
+    position: sticky;
+    top: 100px;
 }
-#educacion {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+#h1 {
+    font-size: larger;
 }
-#exp-laboral {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+#h2 {
+    padding-top: 50px;
 }
-#trabajos {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+
+#separador-links {
+    display: display-box;
+    border: 2px blue;
+    border-style: dashed;
+    background-color: hsl(182, 30%, 77%);
 }
-#conocimientos {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+
+#seccion-tarjetas { /* Ésto quiero que quede centrado en la página. */
+    margin: 0 auto;
+    background-color: rgb(222, 233, 235);
+
 }
-#contacto {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-top: 30px;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
+.tarjetas {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: cadetblue;
+    border: solid 2px #f00;
     border-radius: 5px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    width: 20em;
+    height: auto;
+
+}
+section article tr td {
+    border: solid 0px gray;
+    border-collapse: collapse;
+
+}
+section article tr td:hover {
+    background-color: #85d5d8;
+
+}
+
+#AutoBiografia {
+
+}
+
+footer {
+    
+    background-color: #a79c9c;
 }

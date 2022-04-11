@@ -7,63 +7,31 @@
     <title>Presentación Personal N.E.T.</title>
     <link rel="icon" type="image/png" href="/imagenes/NETWorks.png">    <!-- Config robada de una web random -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&family=Cinzel:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header> <!-- Encabezado -->
         <a href="https://www.google.com"><img id="Logo-NETW" src="./Imagenes/NETWorks.png"/></a>
         <div id="caja-botonera">
-            <a id="inicio" class="botonera" href="">Inicio</a>
-            <a id="educacion" class="botonera" href="">Educación</a>
-            <a id="exp-laboral" class="botonera" href="">Exp. Laboral</a>
-            <a id="trabajos" class="botonera" href="">Trabajos</a>
-            <a id="conocimientos" class="botonera" href="">Conocimientos</a>
-            <a id="contacto" class="botonera" href="">Contacto</a>
+            <a class="botonera" href="">Inicio</a>
+            <a class="botonera" href="">Educación</a>
+            <a class="botonera" href="">Exp. Laboral</a>
+            <a class="botonera" href="">Trabajos</a>
+            <a class="botonera" href="">Conocimientos</a>
+            <a class="botonera" href="">Contacto</a>
         </div>
-    </header>
-
-
-    
+    </header>    
     <main> <!-- Cuerpo-->
         <!-- Título: Nombre Usuario + Nombre de página. -->
-        <div align="center"> 
-            <h2>Nicolás E. Tizzano</h2> <!-- Se muestra primero, con tamaño más grande que h2 -->
-            <h1>Presentación Personal</h1> <!-- Se muestra segundo, con tamaño inferior que h1 -->
-            <img src="Imagenes/div_line.png" height="50"/>
+        <div id="Datos"> 
+            <h2 id="h2" class="datos-principales">Nicolás E. Tizzano</h2> <!-- Se muestra primero, con tamaño más grande que h2 -->
+            <h1 id="h1" class="datos-principales">Presentación Personal</h1> <!-- Se muestra segundo, con tamaño inferior que h1 -->
         </div>
-        <!-- 
-        <div align="center">
-        <table border="20">
-            <thead>
-                <tr>
-                    <th rowspan="3" colspan="2">
-                        <a href="/Imagenes/Rumbo_CostaRica0005.JPG">
-                            <img src="/Imagenes/Rumbo_CostaRica0005.JPG" height="200" alt="Foto Perfil NicoTiza"/>
-                        </a>
-                    </th>
-                    <td align="center">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4080/4080457.png" height="35"/>
-                    </td>
-                    <th>Fecha de Nacimiento:</th>
-                    <td align="center">6/12/1989</td>
-                </tr>
-                <tr>
-                    <td align="center"> 
-                        <img src="https://cdn-icons-png.flaticon.com/512/2760/2760592.png" height="35"/>
-                    </td>
-                    <th>Estado Civil:</th>
-                    <td align="center">Soltero.</td>
-                </tr>
-                <tr>
-                    <td align="center"> <img src="https://cdn-icons-png.flaticon.com/512/854/854952.png" height="35"/></td>
-                    <th>Lugar de Nacimiento:</th>
-                    <td align="center">C.A.B.A., Buenos Aires, Argentina.</td>
-                </tr>
-            </thead>
-        </table>
-        </div>  
-        -->
 
-         <!-- Separador de Info Personal con Tabla Principal; + Links Directo Contacto. -->
+
+        <!-- Separador de Info Personal con Tabla Principal; + Links Directo Contacto. -->
         <div id="separador-links" align="center">
          <table>
             <tr>
@@ -98,106 +66,65 @@
         </table>
         </div>
 
-        <!-- Tabla principal, contenidos: Educación; Exp. Laboral; Trabajos; -->
-        <div id="TablaMain" align="center">
-            <table border="10">
-                <tr>
-                    <th>Estudios Alcanzados</th>
-                    <th>Experiencia Laboral</th>
-                </tr>
-                <tr>
-                    <td>
-                        <ol>
-                            <div align="center">
-                                <video height="100" src="https://cdn-icons-mp4.flaticon.com/512/6454/6454067.mp4" autoplay loop>
-                                </video>
-                            </div>
-                            <li>Colegio Primario Nº10 DE 12: 1996-2002</li>
-                            <li>Colegio Secundario San Ramón Nonato: 2003-2008</li>
-                            <li>Universidad de la Matanza: Ingeñería en Sistemas, 2009-2011</li>
-                            <li>Analista de Sistemas, Terciario. 2011-2013</li>
-                        </ol>
-                    </td>
-                    <td>
-                        <ol>
-                            <div align="center">
-                                <video height="100" src="https://cdn-icons-mp4.flaticon.com/512/6454/6454232.mp4" autoplay loop>
-                                </video>
-                            </div>
-                            <li>Clandestine: Control de Stock.</li>
-                            <li>Etertin: Ayudante en Sistemas. Ventas por MercadoLibre de insumos informáticos.</li>
-                            <li>Lo-Tec: Servicio Técnico en Computación</li>
-                            <li>Vivero Sonyando: Ventas, At. al público, básicamente vender plantitas.</li>
-                            <li>NETWorks: Mi propio emprendimiento sobre reparaciones de varias cosas electrónicas.</li>
-                            <li>DistriRoots: Mayorista de Viveros, GrowShops y a fines. Hago de todo jaja XD</li>
-                        </ol>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Manejo de Software</th>
-                    <th>Manejo de HardWare</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div align="center">
-                            <img src="/Imagenes/desarrollador-de-software.png" height="100"/>
-                        </div>
-                        <ul>
-                            <li>Corel Draw</li>
-                            <li>Phosothop</li>
-                            <li>Visual Studio Code</li>
-                            <li>Java, CSS, HTML, entre muchos más por venir.</li>
-                            <li>Paquete Office, y muchos programas más.</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <div align="center">
-                            <img src="/Imagenes/torre-de-pc.png" height="100"/>
-                        </div>
-                        <ul>
-                            <li>Mantenimiento de Computadoras personales.</li>
-                            <li>Actualización de componentes.</li>
-                            <li>Arreglo de fallas de componentes.</li>
-                            <li>Reparación de Celulares, Tablets, otros.</li>
-                            <li>Configuración Óptima para Windows</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+
+        <!-- SECCION TARJETAS -->
+        <section id="seccion-tarjetas">
+            <article class="tarjetas" id="Etudios-Alcanzados">
+                <h2>Estudios Alcanzados</h2>
+                <video height="100" src="https://cdn-icons-mp4.flaticon.com/512/6454/6454067.mp4" autoplay loop>
+                </video>
+                <table>
+                    <tr><th>Institutos</th></tr>
+                    <tr><td>Colegio Primario Nº10 DE 12: 1996-2002</td></tr>
+                    <tr><td>Colegio Secundario San Ramón Nonato: 2003-2008</td></tr>
+                    <tr><td>Universidad de la Matanza: Ingeñería en Sistemas, 2009-2011</td></tr>
+                    <tr><td>Analista de Sistemas, Terciario. 2011-2013</td></tr>
+                </table>
+            </article>
+            <article class="tarjetas" id="Experiencia-Laboral">
+                <h2>Experiencia Laboral</h2>
+                <video height="100" src="https://cdn-icons-mp4.flaticon.com/512/6454/6454232.mp4" autoplay loop>
+                </video>
+                <table>
+                    <tr><td><b>Clandestine:</b> Control de Stock.</td></tr>
+                    <tr><td><b>Etertin:</b> Ayudante en Sistemas. Ventas por MercadoLibre de insumos informáticos.</td></tr>
+                    <tr><td><b>Lo-Tec:</b> Servicio Técnico en Computación</td></tr>
+                    <tr><td><b>Vivero Sonyando:</B> Ventas, At. al público, básicamente vender plantitas.</td></tr>
+                    <tr><td><b>NETWorks:</b> Mi propio emprendimiento sobre reparaciones de varias cosas electrónicas.</td></tr>
+                    <tr><td><b>DistriRoots:</b> Mayorista de Viveros, GrowShops y a fines. Hago de todo jaja XD</td></tr>
+                </table>
+            </article>
+            <article class="tarjetas" id="Manejo-Software">
+                <h2>Manejo de Software</h2>
+                <img src="/Imagenes/desarrollador-de-software.png" height="100"/>
+                <table>
+                    <tr><td>Corel Draw</td></tr>
+                    <tr><td>Phosothop</td></tr>
+                    <tr><td>Visual Studio Code</td></tr>
+                    <tr><td>Java, CSS, HTML, entre muchos más por venir.</td></tr>
+                    <tr><td>Paquete Office, y muchos programas más.</td></tr>
+                </table>
+            </article>
+            <article class="tarjetas" id="Manejo-Hardware">
+                <h2>Manejo de Hardware</h2>
+                <img src="/Imagenes/torre-de-pc.png" height="100"/>
+                <table>
+                    <tr><td>Mantenimiento de Computadoras personales.</td></tr>
+                    <tr><td>Arreglo de fallas de componentes.</td></tr>
+                    <tr><td>Reparación de Celulares, Tablets, otros.</td></tr>
+                    <tr><td>Configuración Óptima para Windows</td></tr>
+                </table>
+            </article>
+        </section>
+
+        
+        <!-- Autodescripción --> <!-- Contenido con fotos y párrafos, alineados con float -->
+        <div id="AutoBiografia">
+            <img src="" class="izquierda" height="50" width="50" />
+            <p class="derecha">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sequi debitis perspiciatis exercitationem animi tenetur cupiditate. Eum et sint perferendis delectus, possimus incidunt eos odit natus, ducimus eius ea itaque.
+            Fuga animi officia minus illum quo sed, error iste quidem necessitatibus minima tempore? Voluptatum cumque esse ab architecto aut! Doloremque ad laudantium omnis incidunt rem odio vitae voluptate facilis commodi!
+            Vel similique assumenda voluptate enim provident esse sunt dolor quod dolorem! Modi accusantium qui officia fuga tempore perferendis numquam! Modi minus, magni quasi suscipit pariatur porro velit ipsum quod dolorem.</p>
         </div>
-        <!-- Autodescripción -->
-        <p>
-            En ésta sección voy a identificarme como yo me veo, tal cual creo que soy.
-            Básicamente nací en un barrio porteño, en Buenos Aires, Argentina en el año 1989.
-            Viví ahí hasta el día de hoy, o sea sigo acá. En la misma casa desde que tengo 3 años, ya que anteriormente vivía en otro barrio cercano.
-            Me eduqué en el colegio primario Casilda Igarzabal de Rodriguez Peña, en la calle Magariños Cervantes.
-            Ahí hice toda mi primaria, hasta hacía "inglés particular" (así le decímos con mi vieja, siendo un curso extra oficial). Estudié por 3 o 4 años.
-            Un curso, digamos, bastante completo. La verdad que aprendí muchísimos, y por más que haya estudiado en el secundario, creo que aquí aprendí mucho más
-            Luego me eduqué en San Ramón Nonato, toda la secundaria allí. Sin repetir de año, tampoco en la primaria.
-            Bajo la carrera de Bachiller con Informática Aplicada (BIA) logré tener conocimientos sobre diseño digital, programación, inglés, portuguéz, entre otras cosas básicas.
-            Siendo colegio religioso, tomé la desición de Confirmarme, ya habiendo tomado la Comuñión en la parroquia Santísima Cruz, sita calle Gral. José Gervasio Artigas.
-            Habiendome egreso en dicho secundario, seguí la carrera de Ingeñería en Informática en la Unviersidad Nacional de la Matanza. Dándome cuenta, el primer año, al habe terminado una relación de 3 años (un tanto tóxica por cierto), decidí dejar los estudios, ingresando al mundo laboral de forma oficial y legal.
-            Ya había laburado alguna vez anteriormente, principalmente un verano, en mis 14 años en una casa de computación. Arreglaba compus de manera muy básica, con lo típico: formatear, limpieza, cambio de componente, atención al público, etc...
-            Pero ahora, ya era diferente, con 19 años ingresé como Control de Stock, en la fucking empresa Clandestine, de venta de bijouteri y demases.
-            Duré 2 años, al principio estaba muy bueno, conocí gente, trabajaba visitando locales, no tenía oficina, iba poco a ver a los "jefes", y aunque la paga era una mierda, mitad blanco, mitad negro pero de ésta era menos de la mitad en blanco.
-            Me di cuenta que a las chicas las trataban demasiado mal, que el ambiente era demasiado tóxico, que ya no se podía pensar en positivo porque nada era factible, era todo según inquietud de éstos "jefes" que lamentablemente pudrían todo con sus desiciones.
-            Mi laburo, al final, era para evitar pagarles un plus a las vendedoras de los locales, las cuales ganaban una comisión mensual por ventas según su rinde con el año anterior. Algo que motivaría a las chicas pero no. No era saludable.
-            Me fui de ahí, y pasé por varios mini laburos.
-            Hasta ingresar como IT en Etertin. Una empresa importadora de insumos informáticos.
-            Duré también 2 años. No soporté las boludeces y la cantidad de laburos que hice ahí: it sistemas, ventas ML, atención recepción, producción, y otras... 
-            Me fui de viaje al norte antes de irme, con 2 amigos. Ahí conocí a una persona muy especial, la cual duró poco, intenso, muy rico como café negro. Pero poco, con ganas de más...
-            El misterio por algo diferente, por una vida diferente se iba confirmando a cada paso, bah, con el tiempo... algo místico que me involucraba a cambiar de fundamentos.
-            Ya había pasado una gran depresión... algo que de a poco salí, pero pensaba que iba a superar y estaba todo bien, hasta que después de éste tiempo de haber dejado a ésta persona, volvió la depre... y no la de prenderlo, porque esa nunca faltó.
-            La cosas no fueron como realmente quería, y en vez de mejorar empeoré.
-            Conseguí otros laburos, pero ya no eran algo fijo, aunque sí eran cosas que me gustaban.
-            Luego del viaje al norte, y del tiempo transcurrido sin laburo pero con ganas de vivir, logro ingresar a una casa de computación por la cual había ingresado al laburo anterior.
-            Como conocían mi desempeño me contraron, y yo me sentía muy feliz creyendo que iba a ser algo importante en mi carrera y sin embargo todo fue normal, a lo que uno escucha como experiencia agena... 
-            Fue el che pibe, haciendo de todo nuevamente, no duré mucho como 2 años ésta vez y lo bueno es que mal o bien el sueldo era lo que venía ganado y laburaba tan solo 5hs diarias, eso me daba muchísima libertad, para fumar y perder tiempo como para cultivar y poder fumar y perder tiempo.
-            Al irme de ahí, cobré una moneda pero porque me robaron el auto, bah a mi hermano, pero era mi auto, el que me regaló mi viejo, un R11 azúl que le compró a su amigo mecánico.
-            El auto de 10, pero nunca hubo suficiente feeling. Lo choqué una vez, no me hice nada, ni lo sentí, por suerte no hice nada al otro conductor, se fue andando. Yo me quedé ahí...
-            Cuestión, viajé con esa guita a Panamá, y Costa Rica. Ahí dije, listo, es ahora el hecho de poder vivir supermente libre, y pues no... no logré mis objetivos, no conseguí buenos caminos, pues todo era hermoso, pero nada tenía sentido.
-            Me volví a BsAs, mi hogar. Y acá estoy... Laburando por mi cuenta reparando cosas tecnológicas. Laburando con un amigo, vendiendo cosas... Y así ahora estudiando programación para poder laburar por mi cuenta a un nivel superior y así lograr volver a irme, ahora con otros objetivos.
-        </p>
     </main>
     <!-- Separador del Main con Footer, del BODY -->
     <div align="center">
